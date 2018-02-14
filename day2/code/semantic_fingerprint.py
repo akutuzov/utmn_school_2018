@@ -2,6 +2,7 @@
 
 import sys
 import numpy as np
+from gensim import utils
 
 
 def fingerprint(text, model):
@@ -22,3 +23,20 @@ def fingerprint(text, model):
     semantic_fingerprint = np.sum(vectors, axis=0)  # Вычисляем сумму векторов всех слов в документе
     semantic_fingerprint = np.divide(semantic_fingerprint, lw)  # Вычисляем среднее
     return semantic_fingerprint
+
+
+def save_model(fname, words, vectors):
+    """
+    :param fname: имя файла, в который мы хотим сохранить векторную модель
+    :param words: список сущностей (слов, предложений, других идентификаторов)
+    :param vectors: список векторов для этих сущностей
+    :return:
+    """
+    total_vec = len(vectors)
+    with utils.smart_open(fname, 'ab') as fout:
+        print("storing %s x %s projection weights into %s" % (total_vec, len(vectors[0]), fname), file=sys.stderr)
+        fout.write(utils.to_utf8("%s %s\n" % (total_vec, len(vectors[0]))))
+        for i in range(len(vectors)):
+            doctag = words[i]
+            row = vectors[i]
+            fout.write(utils.to_utf8("%s %s\n" % (doctag, ' '.join("%f" % val for val in row))))
