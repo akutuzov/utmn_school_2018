@@ -19,7 +19,7 @@ if modelfile.endswith('.vec.gz'):
 elif modelfile.endswith('.bin.gz'):
     model = gensim.models.KeyedVectors.load_word2vec_format(modelfile, binary=True)
 else:
-    model = gensim.models.KeyedVectors.load(modelfile)
+    model = gensim.models.Word2Vec.load(modelfile)
 model.init_sims(replace=True)
 
 # 1)
