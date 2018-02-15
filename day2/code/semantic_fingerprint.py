@@ -39,4 +39,4 @@ def save_model(fname, words, vectors):
         for i in range(len(vectors)):
             doctag = words[i]
             row = vectors[i]
-            fout.write(utils.to_utf8("%s %s\n" % (doctag, ' '.join("%f" % val for val in row))))
+            fout.write(utils.to_utf8("%s %s\n" % (doctag.strip(), ' '.join("%f" % val for val in row))))
