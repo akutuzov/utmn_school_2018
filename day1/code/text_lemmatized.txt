@@ -1,4 +1,4 @@
 астрономический_ADJ наблюдение_NOUN определять_VERB масса_NOUN черный_ADJ дыра_NOUN анализ_NOUN движение_NOUN «пробный_ADJ тел»_NOUN звезда_NOUN газовый_ADJ облако_NOUN газовый_ADJ диск_NOUN гравитационный_ADJ поле_NOUN
 расчет_NOUN выходить_VERB процент_NOUN составлять_VERB масса_NOUN видимый_ADJ небесный_ADJ тело_NOUN галактика_NOUN звезда_NOUN планета_NOUN прочий_ADJ объект_NOUN
 процедура_NOUN всегда_ADV одинаковый_ADJ приезжать_VERB «скорая»_NOUN фиксировать_VERB смерть_NOUN отвозить_VERB тело_NOUN судебный_ADJ морг_NOUN
-профессор_PROPN керн_PROPN уже_ADV давно_ADV знать_VERB тело_NOUN похищать_VERB морг_NOUN
+профессор_NOUN керн_PROPN уже_ADV давно_ADV знать_VERB тело_NOUN похищать_VERB морг_NOUN
