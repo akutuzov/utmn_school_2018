@@ -3,12 +3,12 @@
 кот_NOUN идти_VERB крыша_NOUN
 комната_NOUN жить_VERB кошка_NOUN
 собака_NOUN обитать_VERB квартира_NOUN
-ночь_PROPN кошка_NOUN серый_ADJ
+ночь_NOUN кошка_NOUN серый_ADJ
 день_NOUN собака_NOUN черный_ADJ
 рядом_ADV компьютер_NOUN лежать_VERB мышь_NOUN
 кошка_NOUN ловить_VERB мышь_NOUN
 компьютерный_ADJ мышь_NOUN мочь_VERB быть_VERB провод_NOUN
-клавиатура_PROPN мышь_NOUN быть_VERB каждый_ADJ компьютер_NOUN
+клавиатура_NOUN мышь_NOUN быть_VERB каждый_ADJ компьютер_NOUN
 ноутбук_NOUN сломаться_VERB кнопка_NOUN
 клавиатура_NOUN компьютер_NOUN неисправный_ADJ
 компьютер_NOUN мочь_VERB вычислять_VERB функция_NOUN линейный_ADJ алгебра_NOUN
